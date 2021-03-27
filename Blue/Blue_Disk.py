@@ -5,7 +5,6 @@ begin_fill()
 while True:
     forward(200)
     left(140)
-    pu()
     forward(20)
     pd()
     if abs(pos()) < 1:
